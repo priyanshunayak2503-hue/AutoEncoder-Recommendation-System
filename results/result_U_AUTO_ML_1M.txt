@@ -1,0 +1,22 @@
+
+Dataset: ML-10M
+Model: U AUTOREC
+
+----------------------------------------
+Validation RMSE (per epoch/checkpoint):
+----------------------------------------
+Epoch 1  : 0.9485
+Epoch 2  : 0.9485
+Epoch 3  : 0.9483
+Epoch 4  : 0.9482
+
+----------------------------------------
+Final Validation RMSE:
+----------------------------------------
+Best RMSE Achieved : 0.9482
+
+----------------------------------------
+Paper Reference Result:
+----------------------------------------
+Reported RMSE in Paper : ~0.867
+

@@ -1,0 +1,11 @@
+Run 1: RMSE = 0.8759
+Run 2: RMSE = 0.8824
+Run 3: RMSE = 0.8763
+Run 4: RMSE = 0.8761
+Run 5: RMSE = 0.8786
+	
+Mean RMSE : 0.8779
+Std       : 0.0025
+95% CI    : ±0.0022
+	
+Paper target (I-AutoRec, ML-1M): 0.831

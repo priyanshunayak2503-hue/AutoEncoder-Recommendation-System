@@ -1,0 +1,37 @@
+# ============================================================
+# AutoRec Replication Study — Requirements
+# Paper: Sedhain et al., "AutoRec: Autoencoders Meet
+#        Collaborative Filtering", WWW 2015
+#
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# For GPU support (CUDA 12.1), replace the torch line with:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# ============================================================
+
+# ── Core Deep Learning ──────────────────────────────────────
+torch>=2.0.0                  # Neural network, RProp optimizer, CUDA support
+
+# ── Numerical Computing ─────────────────────────────────────
+numpy>=1.24.0                 # Array ops, rating matrix construction
+scipy>=1.10.0                 # scipy.sparse — memory-efficient sparse matrices
+                              # (critical for ML-10M: avoids 2.8 GB dense matrix)
+
+# ── Data Loading & Processing ───────────────────────────────
+pandas>=1.5.0                 # Optional: dataset inspection and EDA
+
+# ── Progress & Logging ──────────────────────────────────────
+tqdm>=4.64.0                  # Training loop progress bars
+
+# ── Visualization (plots & README figures) ──────────────────
+matplotlib>=3.6.0             # All 6 result plots (generate_plots.py)
+
+# ── Notebook Environment ────────────────────────────────────
+jupyter>=1.0.0                # Run .ipynb notebooks locally
+ipykernel>=6.0.0              # Jupyter kernel support
+
+# ── Reproducibility ─────────────────────────────────────────
+# Python 3.10+ built-ins used: dataclasses, logging,
+# random, os, math, zipfile, urllib.request, gc, time
+# No additional packages required for these.
