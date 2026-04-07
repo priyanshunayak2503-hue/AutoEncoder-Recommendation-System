@@ -295,33 +295,9 @@ Box plots with individual run/fold scatter per model. Very low standard deviatio
 
 ---
 
-## Figure 3 — Gap Analysis
+## Figure 3 — Full Leaderboard vs All Baselines
 
-![Fig 3](graphs/fig3_gap_analysis.png)
-
-ΔRMSE = (Our Result − Paper) for each configuration, annotated with absolute and percentage deviation.
-
----
-
-## Figure 4 — U-AutoRec ML-10M Training Curve
-
-![Fig 4](graphs/fig4_training_curve.png)
-
-Validation RMSE over training checkpoints. The model converges but plateaus above the paper's target — consistent with the RProp schedule mismatch described below.
-
----
-
-## Figure 5 — Closeness-to-Paper Radar Chart
-
-![Fig 5](graphs/fig5_radar.png)
-
-Ratio (paper RMSE / our RMSE) shown as a radar chart. A score of 1.0 = perfect match. I-AutoRec ML-1M scores ≈ 0.946; I-AutoRec ML-10M scores ≈ 0.772.
-
----
-
-## Figure 6 — Full Leaderboard vs All Baselines
-
-![Fig 6](graphs/fig6_full_leaderboard.png)
+![Fig 3](graphs/fig6_full_leaderboard.png)
 
 Complete ranking of all methods from the paper alongside our results.
 
