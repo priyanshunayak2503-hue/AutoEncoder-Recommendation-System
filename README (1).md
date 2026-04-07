@@ -376,7 +376,7 @@ Side-by-side grouped bar chart comparing paper-reported RMSE (green) against our
 
 ### Figure 2 — Run / Fold Variability
 
-![Figure 2](plots/fig2_variability.png)
+![Figure 2](graphs/fig2_variability.png)
 
 Box plots with individual run/fold scatter for each model. The dashed green line marks the paper target; the dotted blue line marks our mean. Low variance (Std ≤ 0.0025) across all settings confirms that gaps are **systematic** rather than noise.
 
