@@ -384,7 +384,7 @@ Box plots with individual run/fold scatter for each model. The dashed green line
 
 ### Figure 3 — Replication Gap Analysis
 
-![Figure 3](plots/fig3_gap_analysis.png)
+![Figure 3](graphs/fig3_gap_analysis.png)
 
 Horizontal bar chart of ΔRMSE = (Replicated − Paper) for each setting, annotated with both absolute and percentage deviation. All four gaps are positive — the gap is systematic, not random.
 
@@ -392,7 +392,7 @@ Horizontal bar chart of ΔRMSE = (Replicated − Paper) for each setting, annota
 
 ### Figure 4 — U-AutoRec ML-10M Training Convergence
 
-![Figure 4](plots/fig4_training_curve.png)
+![Figure 4](graphs/fig4_training_curve.png)
 
 Validation RMSE across checkpoint epochs for U-AutoRec on ML-10M. The model converges and plateaus at ~0.9482, above the paper's target of 0.867. The shaded region illustrates the persistent gap.
 
@@ -400,7 +400,7 @@ Validation RMSE across checkpoint epochs for U-AutoRec on ML-10M. The model conv
 
 ### Figure 5 — Closeness-to-Paper Radar Chart
 
-![Figure 5](plots/fig5_radar.png)
+![Figure 5](graphs/fig5_radar.png)
 
 Spider chart showing the ratio (paper RMSE / replicated RMSE) for each model. A score of 1.0 means perfect replication. I-AutoRec ML-1M (≈0.946) is the closest; I-AutoRec ML-10M (≈0.772) shows the largest relative gap.
 
@@ -408,7 +408,7 @@ Spider chart showing the ratio (paper RMSE / replicated RMSE) for each model. A 
 
 ### Figure 6 — Full Leaderboard vs All Baselines
 
-![Figure 6](plots/fig6_full_leaderboard.png)
+![Figure 6](graphs/fig6_full_leaderboard.png)
 
 Complete ranking of all methods on ML-1M and ML-10M, including baselines from the original paper (BiasedMF, RBM variants, LLORMA) alongside both paper AutoRec results and our replicated results. Our implementations are competitive with or better than the non-AutoRec baselines even where they fall short of the paper's own AutoRec numbers.
 
