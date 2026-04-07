@@ -334,15 +334,6 @@ jupyter notebook notebooks/I_AUTO_ML-1M.ipynb
 python generate_plots.py
 ```
 
-**Expected Runtime (Kaggle T4 GPU):**
-
-| Notebook | Time |
-|----------|:----:|
-| I-AutoRec ML-1M | ~20 min |
-| U-AutoRec ML-1M | ~40 min |
-| I-AutoRec ML-10M | ~2–3 hrs |
-| U-AutoRec ML-10M | ~3–4 hrs |
-
 Each notebook is fully self-contained and Kaggle-ready. Set `dataset_root` in the `Config` dataclass at the top of the notebook and run all cells.
 
 ---
